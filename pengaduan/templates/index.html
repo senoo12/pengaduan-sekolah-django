@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container pl-80 pr-8 mt-12">
+    <div class="row">
+        <h2 class="text-xl text-gray-500">Halo, selamat datang</h2>
+        <h4 class="text-2xl font-semibold text-cyan-500">{{ username }}</h4>
+        <div class="row mt-12">
+            <h2>Jumlah aduan kamu :</h2>
+            <h3 class="font-semibold text-cyan-500 text-2xl">{{ jumlah }}</h3>
+        </div>
+    </div>
+</div>
+{% endblock %}
